@@ -1,0 +1,8 @@
+=== URL Scanner ===
+Paste text containing URLs:
+Hi, please reset your password here: http://paypal-verify.tk and confirm at http://192.168.0.1/login.
+
+Found 2 URL(s):
+
+[!] http://paypal-verify.tk - Suspicious (Suspicious TLD)
+[!] http://192.168.0.1/login - Suspicious (IP-based URL)
