@@ -1,0 +1,11 @@
+http://paypal-verify.tk
+http://secure-update.gq
+http://appleid-reset.ml
+
+
+
+If you want to later add blacklist matching from this file:
+
+# Load custom blacklist
+with open("phishing_urls.txt") as f:
+    blacklist = [line.strip() for line in f.readlines()]
