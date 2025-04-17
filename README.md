@@ -35,19 +35,19 @@ python3 url_scanner.py
 
 3. Paste or type the text containing links when prompted.
 
+---
 
 
-
-📌 Sample Suspicious Patterns
+## 📌 Sample Suspicious Patterns
 http://192.168.1.1/login.php — IP-based URL
 
 http://paypal.account.verify-login.tk — Suspicious subdomain + TLD
 
 http://xn--pple-43d.com — Punycode for lookalike domains
+---
 
 
-
-📸 Example Output
+## 📸 Example Output
 
 Found 3 URLs in the message.
 
@@ -55,9 +55,9 @@ Found 3 URLs in the message.
 [!] http://secure-update.gq - Suspicious (TLD: .gq)
 [✓] https://www.github.com - Safe
 
+---
 
-
-📚 Educational Value
+## 📚 Educational Value
 This tool is a good exercise in:
 
 Regex and URL parsing
@@ -66,11 +66,11 @@ Basic link threat detection
 
 Building practical cybersecurity awareness tools
 
+---
 
-
-🛑 Disclaimer
+## 🛑 Disclaimer
 This tool does NOT guarantee a URL is safe or unsafe — it performs basic static checks only. For real-world use, integrate threat intelligence APIs.
+---
 
-
-⭐ Show Support
+## ⭐ Show Support
 Give the repo a ⭐ if you found it helpful and follow for more cybersecurity awareness tools.
